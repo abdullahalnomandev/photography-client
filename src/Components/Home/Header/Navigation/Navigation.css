@@ -1,0 +1,40 @@
+li{
+    list-style: none;
+    color: white;
+    
+}
+.navigation{
+    background-color: purple;
+    height: 70px;
+}
+.logo{
+    font-size:25px;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo-link{
+    color:white;
+    text-decoration: none;
+}
+.login{
+    font-size:20px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+
+}
+.link:hover{
+    color:white;
+}
+@media only screen and (max-width: 400px){
+    .navigation{
+        height:80px;
+    }
+    .logo{
+        font-size:20px;
+        font-weight:bold;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 5px;
+    }
+
+}
