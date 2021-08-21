@@ -1,2 +1,1 @@
-
-##Click to run the project (https://s-photography.netlify.app)
+#Click to run the project (https://s-photography.netlify.app)
