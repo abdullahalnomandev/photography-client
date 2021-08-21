@@ -2,7 +2,8 @@ import { faArrowRight, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { firebase } from '../../firenase/firebase.config';
+// import { firebase } from '../../firenase/firebase.config';
+import { firebase } from "../../";
 export default function AddAdmin() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const [admins, setAdmins] = useState([])
